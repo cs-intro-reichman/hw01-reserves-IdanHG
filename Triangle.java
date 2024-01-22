@@ -6,7 +6,7 @@ public class Triangle {
         int b = Integer.parseInt(args [1]);
         int c = Integer.parseInt(args [2]);
         boolean tri = (a + b > c) && (a + c > b) && (b + c > a);
-        System.out.println(a + " , " + b + " , "  + c + " : " + tri);
+        System.out.println(a + " , " + b + " , "  + c + ": " + tri);
          
     }
 
